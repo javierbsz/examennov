@@ -13,7 +13,7 @@ html{
     width: 1500px;
     background-color:  #DB7F1F;
 
-
+/* header + las A mas las urls */
 }
 
 .header{
@@ -35,7 +35,7 @@ html{
 .header__img{
     background-color:  #DB7F1F;
 }
-
+/*  main  */
 main{
     display: grid;
     grid-template-columns: 325px 1fr 300px;
@@ -113,6 +113,7 @@ a{
     text-decoration: none;
 }
 
+/* section mas texto mas paginas  */
 
 .section__paginas{
     display: grid;
