@@ -2,3 +2,249 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+html{
+    font-family: Arial, black;
+    font-size: 1rem;
+    background-color: #BCB69C;
+    
+}
+
+.container{
+    width: 1500px;
+    background-color:  #DB7F1F;
+
+
+}
+
+.header{
+   display: flex;
+   justify-content: center;
+    font-size: 2rem;
+}
+
+#header__contactar{
+    padding: 110px 0 0 0;
+    color: #502B13;
+}
+
+#header__proyecto{
+    padding: 110px 0 0 0;
+    color: #502B13;
+}
+
+.header__img{
+    background-color:  #DB7F1F;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 325px 1fr 300px;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    
+}
+
+.main__quienessomos{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    color: #FFFFFF;
+    background-color:  #DB7F1F;
+}
+
+.main__parrafo{
+    grid-column: 2/2;
+    background-color:  #DB7F1F;
+    color: #FFFFFF;
+}
+
+
+
+.main__calabaza1{
+    grid-column: 2/2;
+    grid-row: 3/3;
+
+}
+
+.main__caja{
+    grid-column: 2/3;
+    grid-row: 3/3;
+    border-radius: 50px;
+    background-color: #FFEBC9;
+    height: 100px;
+    align-self: center;
+    
+    
+}
+
+.main__calabazapq1{
+    grid-column: 3/3;
+}
+
+#main__proyectos{
+    display: flex;
+    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 3/3;
+    align-self: center;
+
+    
+}
+
+
+.main__calabazapq1{
+    margin-left: 600px;
+    grid-column: 2/3;
+    grid-row: 4/4;
+
+    align-self: center;
+  
+}
+
+.main__calabazapq2{
+    grid-column: 3/3;
+    grid-row: 4/4;
+
+    
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.section__paginas{
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
+.section__pagina1{
+
+    grid-column: 2/2;
+    
+top: 2964px;
+left: 831px;
+width: 339px;
+height: 321px;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 5px solid #502B13;
+border-radius: 0px 92px 0px 89px;
+opacity: 1;
+
+
+}
+
+.section__pagina1text{
+    grid-column: 3/3;
+
+
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+
+    color: #fff;
+}
+
+
+.section__pagina2{
+
+    grid-column: 3/3;
+    
+top: 2964px;
+left: 831px;
+width: 339px;
+height: 321px;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 5px solid #502B13;
+border-radius: 0px 92px 0px 89px;
+opacity: 1;
+
+
+}
+
+.section__pagina2text{
+    grid-column: 2/2;
+
+
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+
+    color: #fff;
+}
+
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 250px 850px 400px ;
+    grid-template-rows: 1fr 1fr 1fr ;
+
+
+}
+
+
+.footer__calabaza1{
+    grid-column: 1/1;
+    grid-row: 1/1;
+
+    
+
+}
+
+.footer__caja{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    border-radius: 50px;
+    background-color: #FFEBC9;
+    height: 100px;
+    align-self: center;
+    
+    
+}
+
+
+
+#footer__contactar{
+    display: flex;
+    justify-content: center;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    align-items: center;
+}
+
+.footer__calabazapq1{
+    grid-column: 3/3;
+    grid-row: 1/1;
+}
+
+.footer__calabazapq2{
+    grid-column: 3/3;
+}
+
+.footer__form{
+    grid-column: 2/2;
+
+  
+    align-items: center;
+}
+
+.form__derecha{
+    grid-column: 3/3;
+}
+
+li{
+    list-style-type: none;
+}
+
+.form__boton{
+    border-radius: 50%;
+}
+
+.footer__lastimg{
+    grid-column: 2/3;
+}
